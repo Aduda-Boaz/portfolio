@@ -2,6 +2,8 @@ import React from 'react';
 import Github from '../../img/icons8-github.svg';
 import LinkedIn from '../../img/icons8-linkedin.svg';
 import Twitter from '../../img/icons8-twitter.svg';
+import Me from '../../img/boaz_me.png'
+import FloatingDiv from '../floatingDiv/FloatingDiv';
 import './Intro.css';
 
 const Intro = () => {
@@ -24,7 +26,12 @@ const Intro = () => {
         </div>
       </div>
       <div className="i-right">
-        my image here
+        <div>
+          <img src={Me} alt="" />
+        </div>
+        <div>
+          <FloatingDiv />
+        </div>
       </div>
     </div>
   )
