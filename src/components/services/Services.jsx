@@ -15,7 +15,7 @@ const Services = () => {
         <br/> with 3+ years of experience in the field. I have a strong passion for <br/> consistently identifying
           and implementing new technologies to maximize <br/> efficiency and productivity. I am proficient in
           developing databases, <br/> user interfaces, and back-end services. I am also experienced in writing <br/> and
-          executing test plans, debugging, and documenting code.  I am a quick learner and a team player. 
+          executing test plans, debugging, and documenting code. <br/> I am a quick learner and a team player. 
         </span>
         <button className="button s-button">Download Resume</button>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
