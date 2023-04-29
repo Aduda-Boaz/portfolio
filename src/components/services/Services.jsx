@@ -1,6 +1,5 @@
 import React from 'react';
 import './Services.css';
-import Resume from './Resume_Boaz.pdf';
 import Card from '../card/Card';
 import Design from '../../img/design.png';
 import Development from '../../img/web-dev.png';
@@ -26,7 +25,7 @@ const Services = () => {
           developing databases, <br/> user interfaces, and back-end services. I have experience in writing <br/> and
           executing test plans, debugging, and documenting code. <br/> I am a quick learner and a team player. 
         </span>
-        <a href={Resume} download>
+        <a href="#">
         <button className="button s-button">Download Resume</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

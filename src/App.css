@@ -1,18 +1,5 @@
-.App{
+.App {
   padding: 0.5rem 3.5rem;
   overflow: hidden;
   color: var(--black);    
-}
-
-.button:hover {
-  background: white;
-  cursor: pointer;
-  border: 1px solid var(--jungle);
-  color: var(--jungle);
-}
-@media screen and (max-width: 480px) {
-  .App {
-    padding: 0.5rem 1rem;
-
-  }
 }

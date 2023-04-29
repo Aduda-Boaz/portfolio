@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../../img/geff_logo-01.png';
 import './Navbar.css';
 import { Link } from 'react-scroll';
 
@@ -8,9 +7,6 @@ const Navbar = () => {
     <div className="n-wrapper" id='Navbar'>
       <div className="n-left">
         <div className="n-logo">
-          <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
-            <img className="my_logo" src={Logo} alt="logo"  />
-          </Link>
         </div>
       </div>
       <div className="n-right">
@@ -43,9 +39,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <Link to="contact" spy={true} smooth={true}>
-          <button className="button n-button">Say Hello</button>
-        </Link>
       </div>
     </div>
   )
