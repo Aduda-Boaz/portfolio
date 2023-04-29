@@ -13,9 +13,9 @@
   gap: 2rem;
 }
 
-.n-logo {
-  font-size: 1.3rem;
-  font-weight: bold;
+.my_logo {
+  width: 200px;
+  padding: 50px;
 }
 .n-right {
   flex: 1;
