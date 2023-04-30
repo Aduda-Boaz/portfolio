@@ -37,16 +37,8 @@
   width: 8rem;
   height: 2rem;
 }
-.i-icons {
-  margin-top: 2rem;
-  display: flex;
-}
-.i-icons > * {
-  transform: scale(0.5);
-}
-.i-icons > *:hover {
-  cursor: pointer;
-}
+
+
 /* right side styling */
 .i-right {
   flex: 1;
