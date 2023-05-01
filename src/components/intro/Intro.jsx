@@ -3,7 +3,7 @@ import './Intro.css';
 
 const Intro = () => {
   return (
-    <div className="intro">
+    <section className="container intro" id='intro'>
       <div className="i-left">
         <div className="i-name">
           <span>Hello! I Am</span>
@@ -32,7 +32,7 @@ const Intro = () => {
           }}
         ></div>
       </div>
-    </div>
+    </section>
   )
 }
 

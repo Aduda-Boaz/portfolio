@@ -6,7 +6,7 @@ import HSocials from './HSocials';
 
 const Header = () => {
   return (
-    <header>
+    <header id='header'>
       <div className="container header__container">
         <h5>Hello! I am</h5>
         <h1>Boaz Geoffrey</h1>
@@ -18,7 +18,7 @@ const Header = () => {
           <img src={Me} alt="Boaz Geoffrey" />
         </div>       
         
-        <a href="#Contact" className="scroll__bar">Scroll Down</a>
+        <a href="#contact" className="scroll__bar">Scroll Down</a>
       </div>
     </header>
   )

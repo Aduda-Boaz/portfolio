@@ -1,45 +1,34 @@
-.n-wrapper {
-  height: 10vh;
+nav {
+  background: rgba(0,0,0,0.2);
+  width: max-content;
+  padding: 0.6rem 1.7rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 2rem;
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 2rem;
-  top: 0;
-}
-.n-left {
-  flex: 1;
-  align-items: center;
-  justify-content: left;
-  display: flex;
-  gap: 2rem;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(10px);
 }
 
-.my_logo {
-  width: 200px;
-  padding: 50px;
-}
-.n-right {
-  flex: 1;
+nav > a {
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  font-weight: 400;
+  background: transparent;
+  color: var(--color-primary);
+  transition: var(--transition);
+  border-radius: 50%;
+  padding: 0.9rem;
+  font-size: 1rem;
 }
 
-.n-list {
-  flex: 10;
-}
-.n-list > ul {
-  display: flex;
-  gap: 2rem;
-  margin-right: 4rem;
-  list-style: none;
+nav > a:hover {
+  background: rgba(0,0,0,0.3);
+  transform: scale(1.1);
 }
 
-.n-list > ul :hover {
-  color: var(--jungle);
-  cursor: pointer;
-}
-
-.n-button {
-  flex: 2;
+nav a.active {
+  background: var(--color-bg);
+  color: var(--light);
 }
