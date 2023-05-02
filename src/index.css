@@ -19,7 +19,7 @@
 
   --transition: all 1000ms ease;
 
-  --container-width-lg: 76%;
+  --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 section {
@@ -59,7 +59,7 @@ section {
   height: 100vh;
 }
 
-section > h2 
+section > h2,
 section > h5 {
   text-align: center;
   color: var(--light);

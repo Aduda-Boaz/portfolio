@@ -8,8 +8,9 @@ import { AiTwotoneFolderOpen } from 'react-icons/ai';
 const Intro = () => {
   return (
     <section className="container intro" id='intro'>
-      <h5>Get to know more</h5>
-      <h2>ABOUT ME</h2>
+        <h5>Get to know more</h5>
+        <h2>ABOUT ME</h2>
+      
       <div className="container intro__container">
         <div className="intro__about">
           <img src={Me} alt="me" />

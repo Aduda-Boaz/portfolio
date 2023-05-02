@@ -2,11 +2,20 @@
   margin-top: 8rem;
 }
 
+.intro__header h5 {
+  font-size: 1.2rem;
+}
+
+.intro__header h2 {
+  font-size: 2rem;
+  color: var(--color-primary);
+}
+
 .intro__container {
   display: grid;
-  grid-template-columns: 35% 60%;
+  grid-template-columns: 35% 65%;
   gap: 5rem;
-  margin-top: 7rem;
+  margin-top: 2rem;
 }
 
 .intro__about {
@@ -38,7 +47,7 @@
   background: var(--color-bg-variant);
   border: 1px solid transparent;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 1.6rem;
   text-align: center;
 }
 
@@ -50,7 +59,7 @@
 }
 
 .intro__icon {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--color-primary);
   margin-bottom: 1rem;
 }
@@ -61,5 +70,39 @@
 
 
 .intro__card > small {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
+  color: var(--color-primary);
+}
+
+.intro__content p {
+  margin: 2rem 0 1.8rem;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__container {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+  .intro__about {
+    width: 50%;
+    margin: 2rem auto 5rem;
+  }
+  .intro__content p {
+    margin: 1rem 0 1.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .intro__about {
+    width: 65%;
+    margin: 0 auro 3rem;
+  }
+  .intro__cards {
+    flex-direction: column;
+    gap: 0.6rem;
+  }
+  .intro__content {
+    text-align: center;
+  }
 }
